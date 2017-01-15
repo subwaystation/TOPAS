@@ -10,8 +10,8 @@ This lists all available modules.
 | Validate FASTA  | Validate FASTQ  | Validate GFF3 | Index VCF |
 | Correct FASTA  | Format FASTQ  | Sort GFF3 | Filter VCF |
 | Index FASTA  |  | Filter GFF3 | Annotate VCF |
-| Extract FASTA  |  |  | GenConS |
-| Tabulate FASTA  |  |  | Analyse VCF |
+| Extract FASTA  |  |  | Analyse VCF |
+| Tabulate FASTA  |  |  | **GenConS** |
 
 ## VCF Processing Modules
 ### GenConS - Generate Consensus Sequence
