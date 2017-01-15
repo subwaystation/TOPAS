@@ -1,0 +1,18 @@
+Validation of test.fasta (DNA-Sequences)
+
+[NEWLINE_TYPE]
+\n[TOTAL_LINES_IN_FILE] 
+28[TOTAL_EMPTY_LINES_IN_FILE]
+5[TOTAL_COMMENT_LINES_IN_FILE]
+4[TOTAL_SEQUENCES_IN_FILE]
+3
+[TOTAL_AMOUNT_OF_BASES_INCLUDING_N]
+49
+[BASE_DISTRIBUTION]A	C	T	G	U	R	Y	K	M	S	W	B	D	H	V	N	X	-	OtherCharacters16	8	10	10	0	0	0	0	0	2	1	0	2	0	0	0	0	0	4
+[TOTAL_GC_CONTENT]
+18[PERCENTAGE_OF_GC_CONTENT_INCLUDING_COUNTED_N]
+0.3673469387755102
+[WARNING_LINES] (do not have to be corrected before running FastaIndexer)[line 12] An empty line between a header and an end of a sequence should be removed[line 20] An empty line between a header and an end of a sequence should be removed
+[NOT_UNIQUE_IDENTIFIERS] (do have to be corrected before running FastaIndexer)[lines [2, 21]] Identifiers are not unique!
+[ERROR_LINES] (do have to be corrected before running FastaIndexer)[line 4] An empty line is not allowed within a sequence content[line 8] A comment line is not allowed within a sequence content[line 10] Illegal Character(s)[line 15] Illegal Character(s)[line 17] A sequence line bigger than the preceding one is not allowed[line 17] Illegal Character(s)[line 18] A sequence line bigger than the preceding one is not allowed[line 26] An empty line between a sequence and a comment line is not allowed
+[SEQUENCE_TYPE	IDENTIFIER	SEQUENCE_LENGTH] (The order is taken over from the Fasta-File.)DNA	test1	19DNA	test2	19DNA	test1	15
