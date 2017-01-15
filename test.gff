@@ -1,0 +1,13 @@
+##gff-version 3
+#!gff-spec-version 1.20
+#!processor NCBI annotwriter
+##sequence-region CP000239.1 1 2932766
+##species http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=321327
+CP000239.1	Genbank	gene	1645	2334	.	+	.	ID=gene1;Name=CYA_0003;gbkey=Gene;locus_tag=CYA_0003
+CP000239.2	Genbank	gene	71	1474	.	+	.	ID=gene0;Name=dnaA;gbkey=Gene;gene=dnaA;locus_tag=CYA_0001
+CP000239.1	Genbank	CDS	71	1474	.	+	0	ID=cds0;Name=ABC98234.1;Parent=gene0;Note=identified by match to protein family HMM PF00308%3B match to protein family HMM TIGR00362;Dbxref=NCBI_GP:ABC98234.1;gbkey=CDS;gene=dnaA;product=chromosomal replication initiator protein DnaA;protein_id=ABC98234.1;transl_table=11
+CP000239.1	Genbank	region	1	2932766	.	+	.	ID=id0;Name=ANONYMOUS;Dbxref=taxon:321327;Is_circular=true;collection-date=Jul-2002;country=USA: Wyoming;gbkey=Src;genome=chromosome;genotype=A-NACy05a;isolation-source=top 2mm of microbial mat from collected 51-61 deg C temperature site in the Octopus Spring effluent channel%2C Yellowstone National Park;mol_type=genomic DNA;old-name=Cyanobacteria sp. Yellowstone A-Prime;strain=JA-3-3Ab
+CP000239.2	Genbank	gene	1645	2334	.	+	.	ID=gene1;Name=CYA_0003;gbkey=Gene;locus_tag=CYA_0003
+CP000239.1	Genbank	gene	71	1474	.	+	.	ID=gene0;Name=dnaA;gbkey=Gene;gene=dnaA;locus_tag=CYA_0001
+CP000239.1	Genbank	CDS	71	1474	.	+	0	ID=cds0;Name=ABC98234.1;Parent=gene0;Note=identified by match to protein family HMM PF00308%3B match to protein family HMM TIGR00362;Dbxref=NCBI_GP:ABC98234.1;gbkey=CDS;gene=dnaA;product=chromosomal replication initiator protein DnaA;protein_id=ABC98234.1;transl_table=11
+CP000239.2	Genbank	region	1	2932766	.	+	.	ID=id0;Name=ANONYMOUS;Dbxref=taxon:321327;Is_circular=true;collection-date=Jul-2002;country=USA: Wyoming;gbkey=Src;genome=chromosome;genotype=A-NACy05a;isolation-source=top 2mm of microbial mat from collected 51-61 deg C temperature site in the Octopus Spring effluent channel%2C Yellowstone National Park;mol_type=genomic DNA;old-name=Cyanobacteria sp. Yellowstone A-Prime;strain=JA-3-3Ab

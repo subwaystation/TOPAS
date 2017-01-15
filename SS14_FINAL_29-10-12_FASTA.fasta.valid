@@ -1,0 +1,33 @@
+Validation of SS14_FINAL_29-10-12_FASTA.fasta (DNA-Sequences)
+
+[NEWLINE_TYPE]
+\r\n
+[TOTAL_LINES_IN_FILE] 
+18994
+[TOTAL_EMPTY_LINES_IN_FILE]
+0
+[TOTAL_COMMENT_LINES_IN_FILE]
+0
+[TOTAL_SEQUENCES_IN_FILE]
+1
+
+[TOTAL_AMOUNT_OF_BASES_INCLUDING_N]
+1139569
+
+[BASE_DISTRIBUTION]
+A	C	T	G	U	R	Y	K	M	S	W	B	D	H	V	N	X	-	OtherCharacters
+268178	298551	302834	269740	0	1	1	1	0	1	0	0	0	0	0	262	0	0	0
+
+[TOTAL_GC_CONTENT]
+568291
+[PERCENTAGE_OF_GC_CONTENT_INCLUDING_COUNTED_N]
+0.498689416788277
+
+[WARNING_LINES] (do not have to be corrected before running FastaIndexer)
+
+[NOT_UNIQUE_IDENTIFIERS] (do have to be corrected before running FastaIndexer)
+
+[ERROR_LINES] (do have to be corrected before running FastaIndexer)
+
+[SEQUENCE_TYPE	IDENTIFIER	SEQUENCE_LENGTH] (The order is taken over from the Fasta-File.)
+DNA	SS14_FINAL_29-10-12.seq	1139569

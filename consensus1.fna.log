@@ -1,0 +1,29 @@
+topas.ConsensusSeqFromVCFs
+Use -? for help
+Parameters chosen: 
+Fasta file           : seq.fna
+Fasta index file     : seq.fna.fai
+Input VCF files      : [vcf1, vcf2]
+Output file          : consensus1.fna
+Ratio                : 0.8
+
+Now working on chromosome chrom1.
+Statistics:
+Total number of SNP positions: 3
+Total number of base changes: 1
+Percentage of base changes: 33.3333
+
+Now working on chromosome chrom2.
+Statistics:
+Total number of SNP positions: 3
+Total number of base changes: 2
+Percentage of base changes: 66.6667
+
+Now working on chromosome chrom3.
+Statistics:
+Total number of SNP positions: 2
+Total number of base changes: 2
+Percentage of base changes: 100.0000
+
+
+topas.ConsensusSeqFromVCFs finished in 0 seconds
