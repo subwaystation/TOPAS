@@ -1,0 +1,16 @@
+language: java
+sudo: false
+jdk:
+- oraclejdk8
+script: gradle build
+env:
+- version=1.0.1
+deploy:
+  provider: releases
+  api_key:
+    secure: AAAAB3NzaC1yc2EAAAADAQABAAACAQCs/M775TuznYvCCR4Dze3tJ1EjscdEUHt6KFfu9PrTWsgoxk25b39D7tuqY8RLtMVZTwm2zt/8DOGt/mOAlZ6dEpkX2UJInFEFF1L0YQ9+hduZIBTYldlK2almJ6jDSL7RhLS/4bHglXD7d3Cmb06CMXbFaDfXF9v2QIFaJNDmWWAY8VIkr9lZt9tYkYJxdj/h7qct2X9ASU7uLfWklAmcwx2ApKTDJgTZqIV35RfUXRSmkUsm/vnhkw5V/9cyu3JkpmD4rTODFJAvuaTaQEt0Ys66wpAFWUA+4mhf6wsA8R316n76Tgb8P1ZIMRjizSUlKG3Nlc6A4213+AIHWTlVlkB6AHNRBI9onPAccqefhZ1lEL3QwrlWAFzgeGE8a011DSOzjaSXJG/aN6MVrSeve/jTbB0X6+os2cUjq7ewSC0vn8PG4lnczScUrsoEIEk71mRSRzsrx5G4wVekpd3bUngPrwh5alSS5RGCSe3RegVW2a6VBNLmPK2UxKI4pt9SaHJ5KEBte7fcsK4N6EltFHbiXBRP8WJOwlM0W152u0NzrJUcsQ43gP+xnXFVXWfznwPrd6MjSvPxicB9uunWZFAlkwZjl4E2swm0PnLAOFE/oCrJGBL4OcBVncD2WVkbZENtwZ5eV51jm5N3xnx1o0OFR7JLO/5lRJvM8a+SoQ==
+  file: build/libs/TOPAS-1.0.1.jar
+  skip_cleanup: true
+  on:
+    all_branches: true 
+repo: subwaystation/TOPAS
