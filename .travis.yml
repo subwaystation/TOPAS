@@ -12,6 +12,5 @@ deploy:
   file: build/libs/TOPAS-1.0.1.jar
   skip_cleanup: true
   on:
-    tags: true
     all_branches: true
 repo: subwaystation/TOPAS
