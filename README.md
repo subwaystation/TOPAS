@@ -1,4 +1,5 @@
 [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/topas/README.html)
+[![Build Status](https://travis-ci.com/subwaystation/TOPAS.svg?branch=master)](https://travis-ci.com/subwaystation/TOPAS)
 
 # TOPAS - TOolkit for Processing and Annotating Sequence data
 This toolkit allows the efficient manipulation of sequence data in various ways. It is organized into modules: The `FASTA` processing modules, the `FASTQ` processing modules, the `GFF` processing modules and the `VCF` processing modules.
