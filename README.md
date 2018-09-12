@@ -24,3 +24,4 @@ For a more detailed insight (except the **GenConS** module) see **https://github
 
 # LICENSE
 TOPAS is available free of charge for academic purposes. The toolkit is available under the CC-BY license.
+
