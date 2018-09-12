@@ -17,7 +17,8 @@ This lists all available modules.
 
 ## VCF Processing Modules
 ### GenConS - Generate Consensus Sequence
-GenConS reads a FASTA reference and a corresponding GATK Unified Genotyper VCF file of which a consensus sequence is created. **The key feature of this module is that it is able to handle ancient DNA data.** For instance, the user can set the expected DNA damage individually. This is reflected in the resulting consensus sequence. **For a detailed description of the tool see the wiki page https://github.com/subwaystation/TOPAS/wiki#gencons.**
+GenConS reads a FASTA reference and a corresponding GATK Unified Genotyper VCF file of which a consensus sequence is created. **The key feature of this module is that it is able to handle ancient DNA data.** For instance, the user can set the expected DNA damage individually. This is reflected in the resulting consensus sequence. **For a detailed description of the tool see the wiki page https://github.com/subwaystation/TOPAS/wiki#gencons.** \
+The **GenConS** module has been applied to aDNA data of mammoths! For further details see https://doi.org/10.1038/s41598-017-17723-1.
 
 For a more detailed insight see **https://github.com/subwaystation/TOPAS/blob/master/BSC_Thesis_Heumos.pdf**
 
